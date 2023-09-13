@@ -1,0 +1,22 @@
+:root{
+  --body-bg: #eee;
+  --card-shadow: #00000026;
+  --famyly: Poppins;
+  --color-card: #4d4d4f;
+  --color-message: #1d92ff;
+  --color-comentario: #777;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--famyly);
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--body-bg);
+}
